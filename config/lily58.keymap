@@ -70,11 +70,11 @@
 
         Maplestory {
             bindings = <
-&none  &none      &none      &none  &none      &none                        &none     &none     &none     &none      &none  &none
-&none  &none      &none      &none  &kp SEMI   &none                        &kp APOS  &none     &kp UP    &none      &none  &none
-&none  &kp LCTRL  &kp LSHFT  &kp A  &kp F      &none                        &none     &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
-&none  &trans     &trans     &none  &kp SPACE  &none  &none        &none    &none     &none     &none     &none      &none  &none
-                             &none  &none      &none  &kp COMMA    &kp DOT  &none     &none     &to 0
+&none  &none      &none      &none           &none      &none                                &kp HOME  &none     &none     &none      &none  &none
+&none  &none      &none      &kp APOSTROPHE  &kp SEMI   &none                                &none     &none     &kp UP    &none      &none  &none
+&none  &kp LCTRL  &kp LSHFT  &kp A           &kp F      &none                                &none     &kp LEFT  &kp DOWN  &kp RIGHT  &none  &none
+&none  &trans     &trans     &none           &kp SPACE  &none  &none            &kp ENTER    &none     &none     &none     &none      &none  &none
+                             &none           &none      &none  &kp PAGE_DOWN    &kp PAGE_UP  &kp END   &none     &to 0
             >;
         };
     };
